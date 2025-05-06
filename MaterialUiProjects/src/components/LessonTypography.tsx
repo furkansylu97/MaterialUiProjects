@@ -15,6 +15,12 @@ export const LessonTypography = () => {
 
         <Typography variant='h2' component='h4'>H2 Appearance but with h4 tag</Typography>
 
+        <Typography variant='h2' component='h4' align='left'>text-align= left;</Typography>
+        <Typography variant='h2' component='h4' align='right'>text-align= right;</Typography>
+
+        <Typography variant='subtitle1'>Subtitle 1</Typography>
+        <Typography variant='subtitle2'>Subtitle 2</Typography>
+
     </div>
   )
 }
