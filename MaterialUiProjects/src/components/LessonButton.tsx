@@ -1,4 +1,5 @@
 import { Button, Stack } from '@mui/material';
+import AddIcon from '@mui/icons-material/Add';
 
 export const LessonButton = () => {
   return (
@@ -37,6 +38,11 @@ export const LessonButton = () => {
                 <Button variant='outlined' size='small'>Small Size</Button>
                 <Button variant='outlined' size='medium'>Medium Size</Button>
                 <Button variant='outlined' size='large'>Large Size</Button>
+            </Stack>
+            <Stack direction='row' spacing={3}>
+                <AddIcon color='error' />
+                <Button variant='contained' startIcon={ <AddIcon/> } onClick={() => alert('Clicked')}>Add</Button>
+                <Button variant='contained' endIcon={ <AddIcon/> }>Add</Button>
             </Stack>
         </Stack>
     </>
