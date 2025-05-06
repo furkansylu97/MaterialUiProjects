@@ -1,17 +1,41 @@
+import React from 'react';
 import { useState } from 'react';
 import { FormControl, FormLabel, FormControlLabel, Radio, RadioGroup, FormHelperText, Button } from '@mui/material';
 
 export const LessonRadioExample = () => {
+
+    const [value, setValue] = useState('');
+    const [helperText, setHelperText] = useState('');
+
+    const handleRadioChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+        setValue(event.target.value)
+    }
+
+    const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+
+        event.preventDefault();
+
+        if (value === 'Javascript') {
+            setHelperText('Yes, of course, the best front-end programming language is JavaScript.')
+        }
+        else if (value === 'Python') {
+            setHelperText('No Wrong selection, the best front-end programming language is JavaScript.')
+        }
+        else {
+            setHelperText('Please make your choice')
+        }
+    }
+
   return (
     <>
-     <form>
+     <form onSubmit={handleSubmit}>
       <FormControl>
         <FormLabel>What is the best front-end coding language?</FormLabel>
-          <RadioGroup>
+          <RadioGroup onChange={handleRadioChange}>
             <FormControlLabel value='Javascript' label='Javascript' control={ <Radio/> } />
             <FormControlLabel value='Python' label='Python' control={ <Radio/> } />
           </RadioGroup>
-          <FormHelperText></FormHelperText>
+          <FormHelperText>{ helperText }</FormHelperText>
           <Button type='submit' variant='outlined'>Submit</Button>
       </FormControl>
      </form>
