@@ -1,10 +1,12 @@
 import './App.css'
-import { LessonTypography } from './components/LessonTypography'
+import { LessonButton } from './components/LessonButton'
+// import { LessonTypography } from './components/LessonTypography'
 
 function App() {
   return (
     <>
-      <LessonTypography />
+      {/* <LessonTypography /> */}
+      <LessonButton />
     </>
   )
 }
