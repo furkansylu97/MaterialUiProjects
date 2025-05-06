@@ -13,7 +13,8 @@ export const LessonTypography = () => {
         <Typography variant='h5'>H5 HELLO</Typography>
         <Typography variant='h6'>H6 HELLO</Typography>
 
-        
+        <Typography variant='h2' component='h4'>H2 Appearance but with h4 tag</Typography>
+
     </div>
   )
 }
