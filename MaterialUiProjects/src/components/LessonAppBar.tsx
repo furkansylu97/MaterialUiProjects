@@ -13,6 +13,10 @@ export const LessonAppBar = () => {
         setAnchorEl(event.currentTarget);
     }
 
+    const handleClose = () => {
+        setAnchorEl(null);
+    }
+
   return (
     <AppBar>
         <Toolbar>
@@ -27,9 +31,9 @@ export const LessonAppBar = () => {
                     <Button sx={{color: 'white'}}>PRICE</Button>
                     <Button sx={{color: 'white'}}  onClick={handleClick}>SALES</Button>
                 </Stack>
-                <Menu anchorEl={anchorEl} open={openControl}>
-                    <MenuItem>Books</MenuItem>
-                    <MenuItem>Pencils</MenuItem>
+                <Menu anchorEl={anchorEl} open={openControl} onClose={handleClose}>
+                    <MenuItem onClick={handleClose}>Books</MenuItem>
+                    <MenuItem onClick={handleClose}>Pencils</MenuItem>
                 </Menu>
         </Toolbar>
     </AppBar>
