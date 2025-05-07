@@ -1,5 +1,6 @@
 import './App.css'
-import { LessonStack } from './components/LessonStack'
+import { LessonGrid } from './components/LessonGrid'
+// import { LessonStack } from './components/LessonStack'
 // import { LessonBox } from './components/LessonBox'
 // import { LessonAutoComplete } from './components/LessonAutoComplete'
 // import { LessonCheckbox } from './components/LessonCheckbox'
@@ -24,7 +25,8 @@ function App() {
       {/* <LessonCheckbox /> */}
       {/* <LessonAutoComplete /> */}
       {/* <LessonBox /> */}
-      <LessonStack />
+      {/* <LessonStack /> */}
+      <LessonGrid />
     </>
   )
 }
