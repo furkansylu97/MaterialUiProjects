@@ -1,4 +1,5 @@
 import './App.css'
+import { LessonAccordion } from './components/LessonAccordion'
 import { LessonCard } from './components/LessonCard'
 // import { LessonGrid } from './components/LessonGrid'
 // import { LessonStack } from './components/LessonStack'
@@ -28,7 +29,8 @@ function App() {
       {/* <LessonBox /> */}
       {/* <LessonStack /> */}
       {/* <LessonGrid /> */}
-      <LessonCard />
+      {/* <LessonCard /> */}
+      <LessonAccordion />
     </>
   )
 }
