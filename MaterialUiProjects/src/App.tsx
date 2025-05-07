@@ -1,5 +1,6 @@
 import './App.css'
-import { LessonBottomNavigation } from './components/LessonBottomNavigation'
+import { LessonAvatar } from './components/LessonAvatar'
+// import { LessonBottomNavigation } from './components/LessonBottomNavigation'
 // import { LessonSpeedDial } from './components/LessonSpeedDial'
 // import { LessonBadge } from './components/LessonBadge'
 // import { LessonDrawer } from './components/LessonDrawer'
@@ -48,7 +49,8 @@ function App() {
       {/* <LessonDrawer /> */}
       {/* <LessonBadge /> */}
       {/* <LessonSpeedDial /> */}
-      <LessonBottomNavigation />
+      {/* <LessonBottomNavigation /> */}
+      <LessonAvatar />
     </>
   )
 }
