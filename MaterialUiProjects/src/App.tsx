@@ -1,5 +1,6 @@
 import './App.css'
-import { LessonPaper } from './components/LessonPaper'
+import { LessonLink } from './components/LessonLink'
+// import { LessonPaper } from './components/LessonPaper'
 // import { LessonImageList } from './components/LessonImageList'
 // import { LessonAppBar } from './components/LessonAppBar'
 // import { LessonAccordion } from './components/LessonAccordion'
@@ -36,7 +37,8 @@ function App() {
       {/* <LessonAccordion /> */}
       {/* <LessonAppBar /> */}
       {/* <LessonImageList /> */}
-      <LessonPaper />
+      {/* <LessonPaper /> */}
+      <LessonLink />
     </>
   )
 }
