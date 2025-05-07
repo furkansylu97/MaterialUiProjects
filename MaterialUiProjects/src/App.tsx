@@ -1,5 +1,6 @@
 import './App.css'
-import { LessonDrawer } from './components/LessonDrawer'
+import { LessonBadge } from './components/LessonBadge'
+// import { LessonDrawer } from './components/LessonDrawer'
 // import { LessonBreadCrumbs } from './components/LessonBreadCrumbs'
 // import { LessonLink } from './components/LessonLink'
 // import { LessonPaper } from './components/LessonPaper'
@@ -42,7 +43,8 @@ function App() {
       {/* <LessonPaper /> */}
       {/* <LessonLink /> */}
       {/* <LessonBreadCrumbs /> */}
-      <LessonDrawer />
+      {/* <LessonDrawer /> */}
+      <LessonBadge />
     </>
   )
 }
