@@ -1,5 +1,6 @@
 import './App.css'
-import { LessonBox } from './components/LessonBox'
+import { LessonStack } from './components/LessonStack'
+// import { LessonBox } from './components/LessonBox'
 // import { LessonAutoComplete } from './components/LessonAutoComplete'
 // import { LessonCheckbox } from './components/LessonCheckbox'
 // import { LessonSelect } from './components/LessonSelect'
@@ -22,7 +23,8 @@ function App() {
       {/* <LessonSelect /> */}
       {/* <LessonCheckbox /> */}
       {/* <LessonAutoComplete /> */}
-      <LessonBox />
+      {/* <LessonBox /> */}
+      <LessonStack />
     </>
   )
 }
