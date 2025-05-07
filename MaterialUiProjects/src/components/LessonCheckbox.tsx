@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { Box, Checkbox, FormControl, FormControlLabel, FormGroup, FormLabel, MenuItem, TextField } from "@mui/material";
+import { Box, Checkbox, FormControl, FormControlLabel, FormGroup, FormLabel} from "@mui/material";
 
 export const LessonCheckbox = () => {
 
