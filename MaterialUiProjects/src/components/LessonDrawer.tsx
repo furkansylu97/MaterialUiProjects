@@ -11,8 +11,8 @@ export const LessonDrawer = () => {
     <IconButton size="large" onClick={() => setIsOpen(true)}>
         <MenuIcon  />
     </IconButton>
-    <Drawer open={isOpen}>
-        <Box>
+    <Drawer anchor="right" open={isOpen} onClose={() => setIsOpen(false)}> {/*anchor determines the location where the menu will open. Default value is left*/}
+        <Box width='250px' textAlign='center'>
             <Typography variant='h6' component='div'>
                 Left Panel
             </Typography>
