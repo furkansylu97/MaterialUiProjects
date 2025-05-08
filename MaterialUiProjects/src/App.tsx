@@ -1,5 +1,6 @@
 import './App.css'
-import { LessonSpinnerOrProgress } from './components/LessonSpinnerOrProgress'
+import { LessonSkeleton } from './components/LessonSkeleton'
+// import { LessonSpinnerOrProgress } from './components/LessonSpinnerOrProgress'
 // import { LessonSnackbar } from './components/LessonSnackbar'
 // import { LessonDialog } from './components/LessonDialog'
 // import { LessonAlert } from './components/LessonAlert'
@@ -62,7 +63,8 @@ function App() {
       {/* <LessonAlert /> */}
       {/* <LessonDialog /> */}
       {/* <LessonSnackbar /> */}
-      <LessonSpinnerOrProgress />
+      {/* <LessonSpinnerOrProgress /> */}
+      <LessonSkeleton />
     </>
   )
 }

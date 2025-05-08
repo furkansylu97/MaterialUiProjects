@@ -1,5 +1,4 @@
 import { CircularProgress, LinearProgress, Stack } from '@mui/material'
-import React from 'react'
 
 export const LessonSpinnerOrProgress = () => {
   return (
