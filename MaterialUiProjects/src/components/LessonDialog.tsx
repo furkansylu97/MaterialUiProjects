@@ -8,7 +8,7 @@ export const LessonDialog = () => {
     return (
         <>
             <Button onClick={() => setDialogOpen(true)}>Open the Dialog</Button>
-            <Dialog open={dialogOpen}></Dialog>
+            <Dialog open={dialogOpen} onClose={() => setDialogOpen(false)}></Dialog>
         </>
     );
 };
