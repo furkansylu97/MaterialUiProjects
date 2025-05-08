@@ -1,5 +1,6 @@
 import './App.css'
-import { LessonMasonry } from './components/LessonMasonry'
+import { LessonTimeline } from './components/LessonTimeline'
+// import { LessonMasonry } from './components/LessonMasonry'
 // import { LessonTabs } from './components/LessonTabs'
 // import { LessonDateRange } from './components/LessonDateRange'
 // import { LessonDatePickerTimePicker } from './components/LessonDatePickerTimePicker'
@@ -76,7 +77,8 @@ function App() {
       <LessonDatePickerTimePicker /> */}
       {/* <LessonDateRange /> */}
       {/* <LessonTabs /> */}
-      <LessonMasonry />
+      {/* <LessonMasonry /> */}
+      <LessonTimeline />
     </>
   )
 }
