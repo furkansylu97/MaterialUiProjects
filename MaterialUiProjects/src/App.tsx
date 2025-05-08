@@ -1,5 +1,6 @@
 import './App.css'
-import { LessonDialog } from './components/LessonDialog'
+import { LessonSnackbar } from './components/LessonSnackbar'
+// import { LessonDialog } from './components/LessonDialog'
 // import { LessonAlert } from './components/LessonAlert'
 // import { LessonToolTip } from './components/LessonToolTip'
 // import { LessonList } from './components/LessonList'
@@ -58,7 +59,8 @@ function App() {
       {/* <LessonList /> */}
       {/* <LessonToolTip /> */}
       {/* <LessonAlert /> */}
-      <LessonDialog />
+      {/* <LessonDialog /> */}
+      <LessonSnackbar />
     </>
   )
 }
