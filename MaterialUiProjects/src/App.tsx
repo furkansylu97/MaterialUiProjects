@@ -1,5 +1,6 @@
 import './App.css'
-import { LessonToolTip } from './components/LessonToolTip'
+import { LessonAlert } from './components/LessonAlert'
+// import { LessonToolTip } from './components/LessonToolTip'
 // import { LessonList } from './components/LessonList'
 // import { LessonAvatar } from './components/LessonAvatar'
 // import { LessonBottomNavigation } from './components/LessonBottomNavigation'
@@ -54,7 +55,8 @@ function App() {
       {/* <LessonBottomNavigation /> */}
       {/* <LessonAvatar /> */}
       {/* <LessonList /> */}
-      <LessonToolTip />
+      {/* <LessonToolTip /> */}
+      <LessonAlert />
     </>
   )
 }
