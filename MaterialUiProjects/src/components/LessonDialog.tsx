@@ -1,10 +1,14 @@
 import { Button, Dialog } from "@mui/material";
+import { useState } from "react";
 
 export const LessonDialog = () => {
+
+    const [dialogOpen, setDialogOpen] = useState(false);
+
     return (
         <>
-            <Button>Open the Dialog</Button>
-            <Dialog open={false}></Dialog>
+            <Button onClick={() => setDialogOpen(true)}>Open the Dialog</Button>
+            <Dialog open={dialogOpen}></Dialog>
         </>
     );
 };
