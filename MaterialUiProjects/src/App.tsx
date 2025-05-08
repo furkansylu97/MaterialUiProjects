@@ -1,5 +1,6 @@
 import './App.css'
-import { LessonSnackbar } from './components/LessonSnackbar'
+import { LessonSpinnerOrProgress } from './components/LessonSpinnerOrProgress'
+// import { LessonSnackbar } from './components/LessonSnackbar'
 // import { LessonDialog } from './components/LessonDialog'
 // import { LessonAlert } from './components/LessonAlert'
 // import { LessonToolTip } from './components/LessonToolTip'
@@ -60,7 +61,8 @@ function App() {
       {/* <LessonToolTip /> */}
       {/* <LessonAlert /> */}
       {/* <LessonDialog /> */}
-      <LessonSnackbar />
+      {/* <LessonSnackbar /> */}
+      <LessonSpinnerOrProgress />
     </>
   )
 }
