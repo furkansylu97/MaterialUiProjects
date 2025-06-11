@@ -12,17 +12,17 @@ function App() {
             </AppBar>
             <Container maxWidth="lg">
               <Grid container spacing={2} sx={{marginTop: 10}}>
-                  <Grid size={8}>
-                      size=8
+                  <Grid size={{ xs: 12, md: 6, lg: 3 }}>
+                      xs: 12, md: 6, lg: 3
                   </Grid>
-                  <Grid size={4}>
-                      size=4
+                  <Grid size={{ xs: 12, md: 6, lg: 3 }}>
+                      xs: 12, md: 6, lg: 3
                   </Grid>
-                  <Grid size={4}>
-                      size=4
+                  <Grid size={{ xs: 12, md: 6, lg: 3 }}>
+                      xs: 12, md: 6, lg: 3
                   </Grid>
-                  <Grid size={8}>
-                      size=8
+                  <Grid size={{ xs: 12, md: 6, lg: 3 }}>
+                      xs: 12, md: 6, lg: 3
                   </Grid>
               </Grid>
             </Container>
