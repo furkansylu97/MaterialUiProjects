@@ -1,9 +1,19 @@
-import React from 'react'
+import React from "react";
 
-function Course() {
-  return (
-    <div>Course</div>
-  )
-}
+type CourseProps = {
+    image: string;
+    title: string;
+    description: string;
+};
 
-export default Course
+const Course: React.FC<CourseProps> = ({ image, title, description }) => {
+    return (
+        <div>
+            <img src={image} alt="" />
+            <p>{title}</p>
+            <p>{description}</p>
+        </div>
+    );
+};
+
+export default Course;
